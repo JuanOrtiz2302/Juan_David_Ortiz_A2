@@ -1,7 +1,7 @@
 ---
 title: "Assignment_2"
 author: "Juan David Ortiz Cortés"
-date: "2023-10-08"
+date: "2023-10-09"
 output: pdf_document
 ---
 
@@ -29,7 +29,7 @@ library(gmodels)
 ```{r}
 
 
-folder <- dirname(ELECTIVA::getSourceEditorContext()$path)
+folder <- dirname(rstudioapi::getSourceEditorContext()$path)
 
 parentFolder <- dirname (folder)
 data_set_dia <-
